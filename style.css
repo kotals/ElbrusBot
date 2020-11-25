@@ -1,0 +1,61 @@
+*{
+ font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+#myBot{
+   background-image: url('https://static.tildacdn.com/tild6265-3639-4339-a663-336661356334/iphone-short.png');
+   height:450px;
+   width: 220px;
+   background-size: 100% 100%;
+   display: flex;
+   flex-direction: column;
+   padding:25px ;
+   justify-content:center;
+  
+ }
+ 
+ 
+ h1{
+   background-color: #4520ab;
+   font-size: 18px;
+   border: 1px solid  #4520ab;
+  border-radius: 8px;
+   color: #29edff;
+   padding: 8px;
+   text-align: center;
+ }
+ 
+ #answer{
+   color: #4520ab;
+   font-size: 16px;
+   overflow: scroll;
+ }
+ 
+ #question{
+   background-color: #dcdcdc;
+   border: 1px solid #dcdcdc;
+   border-radius: 8px;
+   background-repeat: 6px;
+   padding: 5px;
+
+   font-size: 16px;
+   
+ }
+ 
+ ::placeholder{
+   color: #4520ab;
+   padding-left: 6px;
+ }
+ 
+ #myButton{
+ font-size: 18px;
+ border-radius:8px;
+ background-color: #ffbc5b;
+ border: 1px solid #ffbc5b
+ }
+
+ p{
+   text-align: right
+ }
